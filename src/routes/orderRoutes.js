@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const orderController = require('../controllers/orderController');
+const orderController = require('../controller/orderController');
 // Criar um novo pedido: http://localhost:3000/order
 router.post('/', orderController.createOrder);
 // Obter dados de um pedido pelo número: http://localhost:3000/order/:orderId
